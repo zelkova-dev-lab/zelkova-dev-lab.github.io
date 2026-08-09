@@ -1,0 +1,84 @@
+# ---------------------------------------------------------------------------
+# Zelkova Dev Lab — 문서 사이트 설정
+#
+# 이 파일은 게시 저장소(zelkova-dev-lab/zelkova-dev-lab.github.io)의
+# **루트**에 놓인다. 이미 _config.yml 이 있다면 덮어쓰지 말고
+# docs/DEPLOY.md 의 "병합 대상 키" 목록을 참고해 병합할 것.
+# ---------------------------------------------------------------------------
+
+title: Zelkova Dev Lab
+description: 젤코바 데브랩이 만든 앱의 사용설명서 모음
+url: "https://zelkova-dev-lab.github.io"
+baseurl: ""
+
+lang: ko
+
+# just-the-docs 를 원격 테마로 사용 — GitHub Pages 가 직접 빌드하므로 CI 불필요
+remote_theme: just-the-docs/just-the-docs
+
+# ⚠ 필수 — Jekyll 은 테마의 _config.yml 을 읽지 않는다. 이 defaults 가 없으면
+# 모든 페이지가 layout 없이 렌더돼 사이드바·검색·스타일이 통째로 빠진 맨 HTML 이 나온다.
+#
+# 이 저장소에는 나이스보드 매뉴얼 말고 policy/ 등 다른 페이지도 있으므로,
+# 사이드바가 달린 default 레이아웃은 매뉴얼에만 적용한다. 나머지는 minimal
+# (= default 에서 사이드바만 끈 레이아웃) + 사이드바·검색에서 제외.
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: minimal
+      nav_exclude: true
+      search_exclude: true
+  - scope:
+      path: "docs/niceboard"
+    values:
+      layout: default
+      nav_exclude: false
+      search_exclude: false
+
+# 커스텀 색상 스킴 (_sass/color_schemes/niceboard.scss)
+color_scheme: niceboard
+
+# /docs/niceboard/01-getting-started/ 형태의 깔끔한 URL
+permalink: pretty
+
+# 사이드바 목차 동작
+heading_anchors: true
+nav_sort: case_sensitive
+
+# 검색
+search_enabled: true
+search:
+  heading_level: 3
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+
+# 우측 상단 보조 링크
+aux_links:
+  "Google Play 에서 받기":
+    - "https://play.google.com/store/apps/details?id=com.ralph.boardgame_tracker"
+aux_links_new_tab: true
+
+# 각 페이지 하단
+back_to_top: true
+back_to_top_text: "맨 위로"
+
+footer_content: '나이스보드 · 나이스 플레이, 나이스 보드!'
+last_edit_timestamp: true
+last_edit_time_format: "%Y년 %-m월 %-d일"
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-include-cache
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - node_modules/
+  - README.md

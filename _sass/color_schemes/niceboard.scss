@@ -1,0 +1,92 @@
+// ---------------------------------------------------------------------------
+// 나이스보드 색상 스킴 — "아날로그 보드게임 노트"
+//
+// 값의 출처는 앱의 단일 소스 lib/theme.dart (라이트 팔레트).
+// 앱 팔레트를 바꾸면 여기도 함께 갱신할 것.
+//
+//   cream           #FDFBF7   앱 배경 (가장 밝은 종이)
+//   parchmentLight  #F7EFE0   카드/패널
+//   parchment       #F0E6D2   PaperSheet 기본
+//   parchmentDark   #E8DCC0   외곽 vignette
+//   ink             #3A2818   본문
+//   inkSoft         #6B5642   보조 텍스트 · 보더
+//   inkFaint        #A89680   힌트 · disabled
+//   navy            #0B50DA   Primary 악센트
+//   orange          #F48C25   Secondary 악센트
+//   green           #2E7D32   Tertiary 악센트
+// ---------------------------------------------------------------------------
+
+$cream: #fdfbf7;
+$parchment-light: #f7efe0;
+$parchment: #f0e6d2;
+$parchment-dark: #e8dcc0;
+
+$ink: #3a2818;
+$ink-soft: #6b5642;
+$ink-faint: #a89680;
+
+$navy: #0b50da;
+$orange: #f48c25;
+$green: #2e7d32;
+
+// --- 표면 -------------------------------------------------------------------
+$body-background-color: $cream;
+$sidebar-color: $parchment-light;
+$search-background-color: $cream;
+$table-background-color: $cream;
+$code-background-color: $parchment;
+
+// --- 글자 -------------------------------------------------------------------
+$body-text-color: $ink;
+$body-heading-color: $ink;
+$nav-child-link-color: $ink-soft;
+$search-result-preview-color: $ink-faint;
+$link-color: $navy;
+
+// --- 보더 · 강조 -------------------------------------------------------------
+$border-color: $parchment-dark;
+$btn-primary-color: $navy;
+$base-button-color: $parchment-light;
+
+// 콜아웃 색 — .note / .warning / .important 등
+$feedback-color: darken($parchment, 3%);
+
+// --- 폰트 -------------------------------------------------------------------
+// GowunDodum 은 _includes/head_custom.html 에서 로드한다.
+$body-font-family: "Gowun Dodum", -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
+  "Malgun Gothic", sans-serif;
+$mono-font-family: "SFMono-Regular", "D2Coding", Consolas, Menlo, monospace;
+$root-font-size: 16px;
+$body-line-height: 1.7;
+$content-line-height: 1.7;
+
+// --- 세부 조정 ---------------------------------------------------------------
+// 표가 많은 매뉴얼이라 셀 여백을 조금 넉넉하게
+.main-content {
+  table {
+    th,
+    td {
+      padding: 0.6rem 0.8rem;
+    }
+    th {
+      background-color: $parchment;
+    }
+  }
+
+  // 좁은 화면에서 넓은 표가 페이지를 밀어내지 않도록
+  .table-wrapper {
+    overflow-x: auto;
+  }
+
+  blockquote {
+    border-left: 3px solid $orange;
+    color: $ink-soft;
+  }
+}
+
+// 사이드바에서 현재 위치를 잉크 밑줄로 강조
+.nav-list .nav-list-item .nav-list-link.active {
+  background-image: none;
+  box-shadow: inset 3px 0 0 0 $orange;
+  font-weight: 700;
+}
