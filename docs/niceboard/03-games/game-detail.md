@@ -32,6 +32,8 @@ BGG 원본 분류 (접힘)
 외부 링크
 ```
 
+<!-- screenshot: game-detail.png -->
+
 ---
 
 ## 컬렉션 토글 세 개

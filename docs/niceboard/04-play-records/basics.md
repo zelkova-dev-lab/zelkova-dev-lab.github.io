@@ -60,6 +60,8 @@ nav_order: 1
 추가 기록 (스위치)      ← 켜면 플레이 시간·한줄평 등이 나옵니다
 ```
 
+<!-- screenshot: record-input.png -->
+
 ---
 
 ## 날짜와 장소

@@ -42,6 +42,8 @@ nav_order: 1
 
 **H-Index**에는 물음표 아이콘이 있어 설명을 볼 수 있습니다 → [6.3 지표 사전](../metrics/)
 
+<!-- screenshot: insights.png -->
+
 ---
 
 ## 여섯 개의 카테고리
