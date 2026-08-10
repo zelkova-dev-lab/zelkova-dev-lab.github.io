@@ -113,15 +113,33 @@ $content-line-height: 1.7;
     font-style: normal;
   }
 
-  // 나란히 두 장 — <div class="screenshot-row"> … </div>
+  // 나란히 두 장 — <div class="screenshot-row" markdown="1"> … </div>
+  //
+  // 주의: kramdown 은 연속한 이미지 줄을 **하나의 <p> 로 묶는다.** 그래서 div 에만
+  // flex 를 주면 자식이 <p> 하나뿐이라 아무 일도 일어나지 않고, img 의 display:block
+  // 때문에 세로로 쌓인다. <p> 도 함께 flex 로 만들어야 가로로 선다.
   .screenshot-row {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
+    align-items: flex-start;
+    margin: 1.2rem 0 0.4rem;
+
+    > p {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+      align-items: flex-start;
+      margin: 0;
+    }
 
     img.screenshot {
-      margin-top: 0;
+      margin: 0;
+      // 좁은 화면에서는 줄바꿈 대신 함께 줄어들게 — 두 장 비교가 유지된다
+      flex: 0 1 260px;
+      min-width: 130px;
       max-width: 260px;
     }
   }
