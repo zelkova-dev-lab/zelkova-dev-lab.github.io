@@ -65,7 +65,8 @@ nav_order: 4
 | **인사이트** | 총 플레이 1, 승률이 계산됩니다 |
 | **게임 상세** | 플레이 통계 카드가 생겼습니다 |
 
-<!-- screenshot: home-heatmap.png -->
+![기록 직후의 홈 화면](/docs/niceboard/assets/screenshots/home-heatmap.webp){: .screenshot }
+*히트맵에 칸이 칠해지고 챌린지 진행률도 함께 올라갑니다*
 
 ---
 

@@ -32,7 +32,11 @@ BGG 원본 분류 (접힘)
 외부 링크
 ```
 
-<!-- screenshot: game-detail.png -->
+<div class="screenshot-row" markdown="1">
+![게임 상세 위쪽](/docs/niceboard/assets/screenshots/game-detail.webp){: .screenshot }
+![게임 상세의 플레이 통계 카드](/docs/niceboard/assets/screenshots/game-detail2.webp){: .screenshot }
+</div>
+*왼쪽이 커버·토글 3종·스탯 줄, 오른쪽이 아래로 내렸을 때 나오는 플레이 통계 카드입니다*
 
 ---
 

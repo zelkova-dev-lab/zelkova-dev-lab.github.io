@@ -26,7 +26,8 @@ nav_order: 1
 
 각 탭 이름 옆의 작은 숫자는 그 목록의 **개수**입니다. 컬렉션이 바뀌면 즉시 갱신됩니다.
 
-<!-- screenshot: collection-tabs.png -->
+![컬렉션 관리의 네 개 탭](/docs/niceboard/assets/screenshots/collection-tabs.webp){: .screenshot }
+*탭 이름 옆 숫자가 각 목록의 개수, 그 아래 줄이 정렬 메뉴입니다*
 
 {: .note }
 > **즐겨찾기는 다른 셋과 축이 다릅니다.** 위시리스트 · 선주문/펀딩 · 보유 중은 서로 배타적이라

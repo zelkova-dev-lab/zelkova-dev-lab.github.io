@@ -71,6 +71,12 @@ nav_order: 2
 | **행 탭** | 그 조건의 플레이 목록이 아래에서 올라옵니다 (드릴다운) |
 | **더보기 (N) / 접기** | 상위 5개 너머를 봅니다 |
 
+<div class="screenshot-row" markdown="1">
+![분포 보기 도넛](/docs/niceboard/assets/screenshots/game-stats.webp){: .screenshot }
+![역할별 성적과 역할 조합](/docs/niceboard/assets/screenshots/game-stats2.webp){: .screenshot }
+</div>
+*같은 카드를 왼쪽은 분포(도넛), 오른쪽은 성적(승률 막대)으로 본 모습입니다*
+
 드릴다운 시트에서 기록을 탭하면 상세 시트가 열리고, 거기서 **편집**까지 이어집니다.
 
 {: .note }
@@ -119,8 +125,6 @@ nav_order: 2
 ```
 전체 51판이 모두 조건에 맞아 판수는 그대로입니다
 ```
-
-<!-- screenshot: game-stats.png -->
 
 {: .note }
 > **판수가 안 줄어도 필터는 걸려 있습니다.**

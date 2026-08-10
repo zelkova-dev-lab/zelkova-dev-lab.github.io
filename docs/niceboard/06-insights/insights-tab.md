@@ -42,7 +42,8 @@ nav_order: 1
 
 **H-Index**에는 물음표 아이콘이 있어 설명을 볼 수 있습니다 → [6.3 지표 사전](../metrics/)
 
-<!-- screenshot: insights.png -->
+![통계 & 인사이트 탭](/docs/niceboard/assets/screenshots/insights.webp){: .screenshot }
+*기간 칩과 요약 카드 아래로 여섯 개 카테고리가 접혀 있습니다*
 
 ---
 

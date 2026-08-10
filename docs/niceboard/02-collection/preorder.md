@@ -68,7 +68,8 @@ nav_order: 5
 
 저장하면 게임이 **선주문/펀딩** 탭으로 들어가고, 위시리스트에 있었다면 자동으로 빠집니다.
 
-<!-- screenshot: collection-preorder.png -->
+![선주문/펀딩 탭](/docs/niceboard/assets/screenshots/collection-preorder.webp){: .screenshot }
+*부제에 결제일·금액·수령 예정일이 나오고, 오른쪽 두 아이콘이 수령 완료와 취소입니다*
 
 {: .note }
 > 예상 수령일이 필수인 이유는 **'언제 오는지'가 선주문의 핵심 정보**이기 때문입니다.

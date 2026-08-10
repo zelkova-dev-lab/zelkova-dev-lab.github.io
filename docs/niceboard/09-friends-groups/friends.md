@@ -26,6 +26,9 @@ nav_order: 1
 
 대부분은 **이름 직접 입력**으로 충분합니다. 전적 통계는 이름만으로도 다 계산됩니다.
 
+![친구·모임 목록](/docs/niceboard/assets/screenshots/group-detail.webp){: .screenshot }
+*위쪽이 모임, 아래쪽이 친구입니다. 연결된 사용자에게는 `연결됨` 뱃지가 붙습니다*
+
 ---
 
 ## 유저 찾기

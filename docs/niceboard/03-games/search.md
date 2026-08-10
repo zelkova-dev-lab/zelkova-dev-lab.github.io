@@ -52,7 +52,8 @@ nav_order: 1
 
 **1인 · 2인 · 3인 · 4인 · 5인+**
 
-<!-- screenshot: search-top50.png -->
+![게임 검색의 Top 50](/docs/niceboard/assets/screenshots/search-top50.webp){: .screenshot }
+*칩 줄은 좌우로 스크롤됩니다 — 위는 장르, 아래는 N인 베스트*
 
 BGG 사용자들이 "이 인원수가 최적"이라고 투표한 게임 중 랭킹 상위를 보여 줍니다.
 **"3인 보드게임 뭐 사지?"**에 답하는 축입니다.

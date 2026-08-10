@@ -71,7 +71,8 @@ nav_order: 1
 
 배지 인장은 **도장** 모양입니다. 획득한 것은 티어 색(동·은·금) 테두리에 그림이 또렷하고,
 
-<!-- screenshot: badges.png -->
+![업적 배지 화면](/docs/niceboard/assets/screenshots/badges.webp){: .screenshot }
+*획득한 배지는 색이 또렷하고, 못 얻은 배지는 점선으로 비어 있습니다*
 아직 못 얻은 것은 점선 테두리에 흐릿하게 나옵니다. 아래 점의 개수가 티어 단계를 알려 줍니다.
 
 ### 상세 보기

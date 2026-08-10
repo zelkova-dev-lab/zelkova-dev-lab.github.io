@@ -40,6 +40,9 @@ nav_order: 6
 
 **세션 시작**을 누르면 도구 화면으로 들어갑니다.
 
+![라이브 세션 시작 설정 시트](/docs/niceboard/assets/screenshots/live-session.webp){: .screenshot }
+*참가자와 점수 템플릿은 그 게임의 최근 기록에서 미리 채워집니다*
+
 ---
 
 ## 세션 화면
@@ -63,7 +66,8 @@ nav_order: 6
 
 시간은 실제 시계를 기준으로 계산하므로 앱을 잠깐 백그라운드로 보내도 어긋나지 않습니다.
 
-<!-- screenshot: live-session.png -->
+![라이브 세션 타이머와 체스클록](/docs/niceboard/assets/screenshots/live-session2.webp){: .screenshot }
+*맨 위 시간 스트립은 어느 탭에서든 보입니다. 타일을 탭하면 턴이 넘어갑니다*
 
 ### 점수패드
 
@@ -81,7 +85,8 @@ nav_order: 6
 > **텍스트 항목과 게임 공통 항목은 점수패드에 나오지 않습니다.**
 > 숫자가 아니기 때문이며, 세션이 끝난 뒤 기록 화면에서 입력합니다.
 
-<!-- screenshot: live-scorepad.png -->
+![라이브 세션 점수패드](/docs/niceboard/assets/screenshots/live-scorepad.webp){: .screenshot }
+*증분 칩으로 한 번에 더할 값을 고르고, 오른쪽 위 합계가 자동으로 계산됩니다*
 
 ### 카운터
 

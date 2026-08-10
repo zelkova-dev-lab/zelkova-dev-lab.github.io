@@ -98,6 +98,11 @@ $content-line-height: 1.7;
     box-shadow: 0 2px 8px rgba(58, 40, 24, 0.14);
   }
 
+  // 화면 전체를 위아래로 이어 붙인 스크롤 캡처는 훨씬 길어서 더 좁게 묶는다.
+  img.screenshot.tall {
+    max-width: 210px;
+  }
+
   // 스크린샷 바로 다음의 이탤릭 한 줄을 캡션으로 취급
   img.screenshot + em,
   p > img.screenshot + em {

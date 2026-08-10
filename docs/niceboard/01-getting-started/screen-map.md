@@ -49,7 +49,11 @@ nav_order: 3
 
 각 카드는 **탭하면 해당 화면으로** 이동합니다.
 
-<!-- screenshot: home.png -->
+<div class="screenshot-row" markdown="1">
+![홈 화면 위쪽](/docs/niceboard/assets/screenshots/home.webp){: .screenshot }
+![홈 화면 아래쪽](/docs/niceboard/assets/screenshots/home2.webp){: .screenshot }
+</div>
+*왼쪽이 위쪽(최근 플레이·플레이 히트맵), 오른쪽이 아래쪽(컬렉션 현황·거래 통계)입니다*
 오른쪽 위에는 **검색**과 **내 정보** 아이콘이 있습니다.
 
 ---

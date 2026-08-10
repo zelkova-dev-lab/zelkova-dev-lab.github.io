@@ -86,6 +86,12 @@ nav_order: 10
 
 **올해 / 전체** 중에서 고릅니다. 기간 지출·손익과 영입한 게임이 들어갑니다.
 
+<div class="screenshot-row" markdown="1">
+![가계부 카드 — 올해](/docs/niceboard/assets/screenshots/ledger2.webp){: .screenshot }
+![가계부 카드 — 전체](/docs/niceboard/assets/screenshots/ledger3.webp){: .screenshot }
+</div>
+*`올해` 는 월별 지출, `전체` 는 연도별 지출 그래프가 들어갑니다*
+
 ### 게임 노트
 
 **필터 반영 / 전체 기록** 중에서 고릅니다.

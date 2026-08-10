@@ -68,7 +68,8 @@ nav_order: 2
 - 함께한 판수 — 멤버가 **1명 이상** 참가한 판
 - **최다 플레이 게임 Top 5**
 
-<!-- screenshot: group-detail.png -->
+![모임 상세 화면](/docs/niceboard/assets/screenshots/group-detail2.webp){: .screenshot }
+*멤버 카드 아래로 모임 순위와 최다 플레이 게임이 이어집니다*
 
 게임 행에서:
 

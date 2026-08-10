@@ -60,7 +60,8 @@ nav_order: 1
 추가 기록 (스위치)      ← 켜면 플레이 시간·한줄평 등이 나옵니다
 ```
 
-<!-- screenshot: record-input.png -->
+![기록 입력 화면 위쪽](/docs/niceboard/assets/screenshots/record-input.webp){: .screenshot }
+*맨 위 '이전 기록 참고' 카드에서 지난 판을 그대로 복사할 수 있습니다*
 
 ---
 

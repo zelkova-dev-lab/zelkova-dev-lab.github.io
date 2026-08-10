@@ -64,7 +64,11 @@ nav_order: 3
 | **텍스트 항목** | 글자 | 참가자마다 | `리더`, `종족` |
 | **게임 공통 항목** | 글자 | **판당 하나** | `시나리오`, `난이도` |
 
-<!-- screenshot: score-template.png -->
+<div class="screenshot-row" markdown="1">
+![점수표 설정 위쪽](/docs/niceboard/assets/screenshots/score-template.webp){: .screenshot }
+![점수 항목 목록](/docs/niceboard/assets/screenshots/score-template2.webp){: .screenshot }
+</div>
+*왼쪽에서 점수 유형을 고르고, 오른쪽처럼 항목마다 옵션을 켭니다. `게임 공통` 체크박스는 `텍스트 항목` 을 켜야 나타납니다*
 
 ### 점수 항목
 

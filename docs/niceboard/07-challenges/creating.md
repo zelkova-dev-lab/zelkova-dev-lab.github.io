@@ -27,6 +27,9 @@ nav_order: 2
 
 고른 대분류의 세부 유형 칩이 나옵니다 → [7.1 챌린지 종류](../types/)
 
+![챌린지 만들기 시트](/docs/niceboard/assets/screenshots/challenge-ticket.webp){: .screenshot }
+*대분류를 고르면 세부 과제가, 세부 과제를 고르면 목표 설정이 차례로 나타납니다*
+
 ### 3단계 — 기간 설정
 
 기본값은 **올해 1월 1일 ~ 12월 31일**입니다. 버튼을 눌러 바꿉니다.
@@ -65,7 +68,8 @@ nav_order: 2
 
 자동 이름 예: `2026년 10x10 플레이 도전!`, `나의 보드게임 H-Index 10 정복!`
 
-<!-- screenshot: challenge-ticket.png -->
+![도전 티켓](/docs/niceboard/assets/screenshots/challenge-ticket2.webp){: .screenshot }
+*도전 요약을 확인하고 챌린지명을 정하면 등록됩니다 (사진은 기존 챌린지를 수정할 때의 티켓)*
 
 **도전 시작하기**를 누르면 등록됩니다 —
 `새로운 플레이 챌린지가 등록되었습니다! 화이팅!`
