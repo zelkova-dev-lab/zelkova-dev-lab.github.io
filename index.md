@@ -19,13 +19,6 @@ title: Zelkova Dev Lab
 
 ---
 
-## 친구야
-
-- [개인정보처리방침](/policy/ohmyfriends/privacy/)
-- [이용약관](/policy/ohmyfriends/terms/)
-- [아동 안전 표준](/policy/ohmyfriends/child-safety/)
-- [계정·데이터 삭제 안내](/policy/ohmyfriends/delete/)
-
 ## PowerLink
 
 - [개인정보처리방침](/policy/powerlink/privacy/)
