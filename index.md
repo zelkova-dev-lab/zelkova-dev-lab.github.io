@@ -22,10 +22,12 @@ title: Zelkova Dev Lab
 ## PowerLink
 
 - [개인정보처리방침](/policy/powerlink/privacy/)
+- [Google Play 에서 받기](https://play.google.com/store/apps/details?id=com.ralph.powerlink&hl=ko)
 
 ## 일정챙겨 Lite
 
 - [개인정보처리방침](/policy/smartalarm/privacy/)
+- [Google Play 에서 받기](https://play.google.com/store/apps/details?id=com.ralph.smartalarm.lite&hl=ko)
 
 ---
 
