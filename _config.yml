@@ -35,6 +35,9 @@ defaults:
       layout: default
       nav_exclude: false
       search_exclude: false
+      # 앱 매뉴얼 안에서만 그 앱의 슬로건을 푸터에 쓴다.
+      # (루트·정책 페이지는 연구소 화면이라 site.footer_content 가 그대로 나감)
+      footer_tagline: '나이스보드 · 나이스 플레이, 나이스 보드!'
 
 # 커스텀 색상 스킴 (_sass/color_schemes/niceboard.scss)
 color_scheme: niceboard
@@ -67,7 +70,10 @@ aux_links_new_tab: true
 back_to_top: true
 back_to_top_text: "맨 위로"
 
-footer_content: '나이스보드 · 나이스 플레이, 나이스 보드!'
+# 사이트 전역 푸터 — 여기는 연구소 사이트다. 앱 슬로건을 여기 두지 말 것.
+# 앱별 슬로건은 위 defaults 의 그 앱 scope 에 footer_tagline 으로 준다
+# (_includes/footer_custom.html 이 page.footer_tagline 을 우선 적용).
+footer_content: '느티나무숲 개발 연구소 · Zelkova Dev Lab'
 last_edit_timestamp: true
 last_edit_time_format: "%Y년 %-m월 %-d일"
 

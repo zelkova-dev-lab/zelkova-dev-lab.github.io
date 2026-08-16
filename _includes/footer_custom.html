@@ -1,0 +1,15 @@
+{%- comment -%}
+  just-the-docs 의 같은 이름 include 를 덮어쓴다 (테마 기본은 site.footer_content 만 출력).
+
+  푸터 문구는 화면 주인이 누구냐에 따라 갈린다.
+    · 루트 랜딩 · 정책 페이지  → 연구소 사이트  → site.footer_content
+    · 앱 매뉴얼 안             → 그 앱 화면     → page.footer_tagline
+
+  footer_tagline 은 _config.yml 의 defaults 에서 앱 경로 scope 에 준다.
+  앱 문서를 새로 추가하면 그 scope 에 footer_tagline 을 함께 넣을 것 —
+  안 넣으면 연구소 푸터가 그대로 나간다(깨지지는 않는다).
+{%- endcomment -%}
+{%- assign footer_text = page.footer_tagline | default: site.footer_content -%}
+{%- if footer_text != "" -%}
+  <p class="text-small mb-0">{{ footer_text }}</p>
+{%- endif -%}
