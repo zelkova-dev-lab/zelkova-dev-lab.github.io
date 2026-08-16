@@ -51,7 +51,7 @@ nav_order: 4
 내용 아래에 **"아래 정보가 함께 전송됩니다"** 안내와 함께 실제로 보낼 값이 그대로 보입니다.
 
 ```
-앱 1.5.5+39 · Android 14 (SDK 34) · samsung SM-S926N
+앱 1.5.6+40 · Android 14 (SDK 34) · samsung SM-S926N
 ```
 
 {: .note }
