@@ -36,9 +36,9 @@ Powered by BGG (게임 정보 제공: BoardGameGeek)
 
 <div class="screenshot-row" markdown="1">
 ![게임 상세 위쪽](/docs/niceboard/assets/screenshots/game-detail.webp){: .screenshot }
-![게임 상세의 플레이 통계 카드](/docs/niceboard/assets/screenshots/game-detail2.webp){: .screenshot }
+![게임 상세 아래쪽](/docs/niceboard/assets/screenshots/game-detail2.webp){: .screenshot }
 </div>
-*왼쪽이 커버·토글 3종·스탯 줄, 오른쪽이 아래로 내렸을 때 나오는 플레이 통계 카드입니다*
+*왼쪽이 토글 3종·스탯 줄·작가와 퍼블리셔·플레이 통계, 오른쪽이 더 내렸을 때 나오는 거래 이력·확장 목록과 맨 아래 Powered by BGG 표기입니다*
 
 ---
 

@@ -111,6 +111,9 @@ Play 스토어에서 설치한 앱이라면, 새 버전이 나왔을 때 앱 안
 
 **내 정보** 맨 아래, 버전 표시 바로 위에 있습니다.
 
+![내 정보의 앱 정보 섹션](/docs/niceboard/assets/screenshots/settings-app-info.webp){: .screenshot }
+*Powered by BGG 로고와 출처 문구, 그 아래에 오픈소스 라이선스가 있습니다*
+
 ### 게임 데이터 출처
 
 게임 이름·표지·인원수·플레이 시간·평점·랭킹·난이도 같은 정보는
