@@ -12,6 +12,9 @@ BoardGameGeek 계정에 있는 컬렉션과 플레이 기록을 통째로 가져
 
 **내 정보 → 데이터 → BGG 컬렉션 동기화**
 
+화면 위쪽 안내 카드에 **Powered by BGG** 로고와 데이터 출처가 표시됩니다
+(탭하면 BoardGameGeek 사이트가 열립니다).
+
 1. TOC
 {:toc}
 
