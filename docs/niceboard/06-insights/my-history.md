@@ -52,6 +52,12 @@ nav_order: 5
 
 ## 화면에 담긴 것
 
+<div class="screenshot-row" markdown="1">
+![나의 히스토리 — 그때와 지금](/docs/niceboard/assets/screenshots/my-history.webp){: .screenshot }
+![나의 히스토리 — 6축 추이와 장르 비중](/docs/niceboard/assets/screenshots/my-history2.webp){: .screenshot }
+</div>
+*맨 위 `구간` 칩으로 분기 · 반기 · 연을 바꿉니다. 색이 흐린 구간은 기록이 5판 미만이라 참고용입니다*
+
 ### 그때와 지금
 
 가장 먼저 나오는 카드입니다. 초기와 최근의 **플레이 스타일 6축**을 육각형
