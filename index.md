@@ -16,6 +16,7 @@ title: Zelkova Dev Lab
 - [개인정보처리방침](/policy/niceboard/privacy/)
 - [계정·데이터 삭제 안내](/policy/niceboard/delete/)
 - [Google Play 에서 받기](https://play.google.com/store/apps/details?id=com.ralph.boardgame_tracker)
+- [App Store 에서 받기](https://apps.apple.com/kr/app/id6806663843)
 
 ---
 

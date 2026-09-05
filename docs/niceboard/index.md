@@ -10,10 +10,11 @@ permalink: /docs/niceboard/
 
 **나이스 플레이, 나이스 보드!**
 
-나이스보드는 보드게임 **컬렉션 · 플레이 기록 · 거래 이력 · 챌린지**를 한 앱에서 관리하는 안드로이드 앱입니다.
+나이스보드는 보드게임 **컬렉션 · 플레이 기록 · 거래 이력 · 챌린지**를 한 앱에서 관리하는 안드로이드 · 아이폰 앱입니다.
 BoardGameGeek(BGG) 데이터를 카탈로그로 쓰고, 화면은 전부 한국어입니다.
 
 [Google Play 에서 받기](https://play.google.com/store/apps/details?id=com.ralph.boardgame_tracker){: .btn .btn-primary }
+[App Store 에서 받기](https://apps.apple.com/kr/app/id6806663843){: .btn .btn-primary }
 [5분 만에 첫 기록 남기기](01-getting-started/quickstart/){: .btn }
 
 ---
